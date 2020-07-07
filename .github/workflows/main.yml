@@ -14,13 +14,13 @@ jobs:
     steps:
       
     - name: Say Hallo
-      run: echo Hello!
+      run: echo "Hello! :))"
     
     - name: List current folder
-      run: ls
+      run: ls -la
       
     - name: Git clone my repo
       uses: actions/checkout@v1
     
     - name: List current folder
-      run: ls
+      run: ls -la
