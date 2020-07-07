@@ -24,3 +24,6 @@ jobs:
     
     - name: List current folder
       run: ls -la
+    
+    - name: List current folder
+      run: ls -la
