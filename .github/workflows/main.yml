@@ -16,8 +16,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Run a one-line script
-      run: echo Hello, world!
       
-    - name: Print again
-      run: echo Hello!
+    - name: Say Hallo
+      run: echo "Hello! :)"
